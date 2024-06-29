@@ -1,0 +1,52 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    /* Daha güzel bir arka plan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    /* Daha saydam arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    background: #833ab4;
+    /* Instagram renkleri */
+    background: -webkit-linear-gradient(to right, #fd1d1d, #fcb045, #833ab4);
+    background: linear-gradient(to right, #fd1d1d, #fcb045, #833ab4);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    /* Butonun ortalanması */
+}
+
+.login-btn:hover {
+    background: #b03aa1;
+    /* Hover için biraz koyu */
+}
